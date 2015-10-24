@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="image" id="imcont">
+		<div class="shadow" id="sh"></div>
+		<img src="{{imgurl}}" alt="" id="im">
+	</div>
+	<div class="quote">
+	<p><i>{{quote}}</i></p>
+	<span class="author">-{{author}}</span>
+	</div>
+
+</div>
+
+
+<script>
+
+	document.getElementById('im').onload = function() {	
+		var container= document.getElementById('imcont');
+		var image = document.getElementById('im');
+		var shadow = document.getElementById('sh');
+
+		image.clientWidth>container.clientWidth?shadow.style.width=container.clientWidth:shadow.style.width=image.clientWidth;
+
+		//document.getElementById('sh').style.width=document.getElementById('im').clientWidth+1;
+
+	}
+</script>
