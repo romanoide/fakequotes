@@ -1,0 +1,2 @@
+# fakequotes
+Fake quote generator
