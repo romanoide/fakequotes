@@ -1,3 +1,3 @@
 # fakequotes
 Fake quote generator
-lol [everydayquoteseverydaylies.tumblr.com](everydayquoteseverydaylies.tumblr.com)
+lol [http://everydayquoteseverydaylies.tumblr.com](http://everydayquoteseverydaylies.tumblr.com)
